@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".login">
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="266dp"
+        android:layout_marginTop="30dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/mainlogo" />
+
+    <TextView
+        android:id="@+id/adminSignin"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="420dp"
+        android:gravity="center"
+        android:text="Sign in as Admin?"
+        android:textColor="#3F51B5"
+        android:textStyle="bold|italic" />
+
+</FrameLayout>
